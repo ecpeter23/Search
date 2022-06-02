@@ -160,7 +160,7 @@ public class Website {
 
     }
 
-    public int occurences(String word){
+    public int occurrences(String word){ // gets the occurrences of a specific word
         return map.getOrDefault(word, 0);
     }
 
